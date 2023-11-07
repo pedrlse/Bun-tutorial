@@ -1,0 +1,22 @@
+{
+  "name": "bun-tutorial",
+  "module": "index.tsx",
+  "type": "module",
+  "scripts": {
+    "start": "bun run index.tsx",
+    "dev": "bun --watch index.tsx"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "typed-html": "^3.0.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@elysiajs/html": "^0.7.3",
+    "@types/figlet": "^1.5.7",
+    "elysia": "^0.7.21",
+    "figlet": "^1.7.0"
+  }
+}
